@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(203, 125, 137, 0.416);
+    text-align: center;
+}
+
+.container {
+
+    margin: 50px;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+.display {
+
+    border: 1px solid red;
+}
+
+span {
+    color: rgb(231, 35, 212);
+    border: 1px solid black;
+}
+
+#display-none {
+
+    display: none;
+}
+
+#display-inline {
+
+    display: inline;
+}
+
+#display-block {
+
+    display: block;
+}
+
+#display-inlineblock {
+
+    display: inline-block;
+}
+
+li {
+    display: inline;
+}
+/* La propiead display se utiliza para controlar el tipo de caja que se usa para un elemento HTML, controlo tambien el como se muestra en la pagina
+Esta propiedad es distinta de position porque se encarga de definir como se muestran u ocultan (NO SE ELIMINAN DEL CODIGO) los elementos en el navegador.
+
+
+
+*/
